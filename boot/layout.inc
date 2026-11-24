@@ -1,0 +1,9 @@
+%define SECTOR_SIZE 512
+%define STAGE1_LBA 0
+%define STAGE1_SECTORS 1
+%define STAGE2_LBA 1
+%define STAGE2_SECTORS 2
+%define KERNEL_LBA 3
+%define KERNEL_SECTORS 5
+
+%define BOOT_DRIVE_ADDR 0x0500
